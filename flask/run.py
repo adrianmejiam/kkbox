@@ -1,13 +1,9 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
+from flask import Flask
+from app import create_app
 from model import test
-import pandas as pd
-app = Flask(__name__)
-CORS(app)
 
-@app.route('/')
-def index():
-    return 'hello!!'
+app = create_app()
+
 
 @app.route('/search')
 def predictInput():
