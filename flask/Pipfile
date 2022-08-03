@@ -9,6 +9,8 @@ flask-cors = "*"
 requests = "*"
 pandas = "*"
 numpy = "*"
+pymysql = "*"
+pysqlite3 = "*"
 
 [dev-packages]
 
