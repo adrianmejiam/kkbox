@@ -2,7 +2,7 @@ import sqlite3
 
 class Connect():
     def __init__(self):
-        self.connect = sqlite3.connect('.\\kkbox\\Demo\\app\\dbs\\mydatabase.db')
+        self.connect = sqlite3.connect('.\\Demo\\app\\dbs\\mydatabase.db')
         self.cursor = self.connect.cursor()
         #self.cursor.execute("SELECT VERSION()")
         #data = self.cursor.fetchone()
