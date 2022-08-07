@@ -11,6 +11,13 @@ pandas = "*"
 numpy = "*"
 pymysql = "*"
 pysqlite3 = "*"
+flask-sqlalchemy = "*"
+flask-wtf = "*"
+flask-login = "*"
+flask-migrate = "*"
+flask-mail = "*"
+flask-markdown = "*"
+flask-pagedown = "*"
 
 [dev-packages]
 
